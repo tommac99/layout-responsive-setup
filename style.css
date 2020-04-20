@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e7e7e7;
+}
+
+p {
+  background: linear-gradient(
+    20deg,
+    rgba(0, 0, 190, 0.4),
+    rgba(190, 0, 0, 0.4)
+  );
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  background: rgba(255, 0, 0, 1);
+  padding: 0 20px;
+}
+
+@media only screen and (min-width: 440px) {
+  .container {
+    background: rgba(255, 0, 0, 0.8);
+    max-width: 440px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    background: rgba(255, 0, 0, 0.6);
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .container {
+    background: rgba(255, 0, 0, 0.4);
+    max-width: 780px;
+    padding: 0 40px;
+  }
+}
