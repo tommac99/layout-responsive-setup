@@ -39,7 +39,7 @@ p {
 @media only screen and (min-width: 1140px) {
   .container {
     background: rgba(255, 0, 0, 0.4);
-    max-width: 780px;
+    max-width: 1140px;
     padding: 0 40px;
   }
 }
